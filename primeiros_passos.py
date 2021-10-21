@@ -44,6 +44,9 @@ print('nome da variável: {um} e tenho {dois} anos'.format(um=nome, dois=idade))
 lista = [1,2,3]
 print(type(lista))
 
+# imprime tamanho da lista
+print(len(lista))
+
 lista2 = [1.2,'Johnny',3, [1,2,3]]
 print(lista2)
 

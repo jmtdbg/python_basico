@@ -36,3 +36,14 @@ print(teste)
 
 teste = 2 in [1, 2, 3]
 print(teste)
+
+# imprime tamanho da lista
+lista = [1,2,3]
+print(type(lista))
+print(len(lista))
+
+# imprime as keys do dicionario
+dic = {'valor1':'johnny', 'valor2': 2}
+print(type(dic))
+d = dic.keys()
+print(d)
